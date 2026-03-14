@@ -1,0 +1,9 @@
+{
+  "name": "UserCooldown",
+  "type": "object",
+  "properties": {
+    "user_email": { "type": "string", "description": "Email del usuario" },
+    "last_pixel_time": { "type": "string", "format": "date-time", "description": "Última vez que colocó un píxel" }
+  },
+  "required": ["user_email", "last_pixel_time"]
+}

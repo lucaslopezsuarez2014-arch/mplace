@@ -1,0 +1,8 @@
+{
+  "name": "CanvasSettings",
+  "type": "object",
+  "properties": {
+    "canvas_size": { "type": "integer", "description": "Tamaño del canvas (100, 200, etc)", "default": 100 }
+  },
+  "required": ["canvas_size"]
+}

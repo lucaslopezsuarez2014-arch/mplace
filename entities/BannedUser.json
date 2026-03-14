@@ -1,0 +1,10 @@
+{
+  "name": "BannedUser",
+  "type": "object",
+  "properties": {
+    "user_email": { "type": "string", "description": "Email del usuario baneado" },
+    "banned_by": { "type": "string", "description": "Admin que baneó al usuario" },
+    "reason": { "type": "string", "description": "Razón del baneo" }
+  },
+  "required": ["user_email"]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Pixel",
+  "type": "object",
+  "properties": {
+    "x": { "type": "integer", "description": "Coordenada X del píxel" },
+    "y": { "type": "integer", "description": "Coordenada Y del píxel" },
+    "color": { "type": "string", "description": "Color en formato hexadecimal" },
+    "placed_by": { "type": "string", "description": "Email del usuario que colocó el píxel" },
+    "placed_at": { "type": "string", "format": "date-time", "description": "Timestamp de colocación" }
+  },
+  "required": ["x", "y", "color"]
+}
